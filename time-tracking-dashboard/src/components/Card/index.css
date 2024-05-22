@@ -1,0 +1,116 @@
+.full-card{
+    width: 16rem;
+    height: 16rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.full-card .head {
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.full-card .head.Work{
+    background: var(--Orange) url('../../images/icon-work.svg') no-repeat right top;    
+}
+
+.full-card .head.Play{
+    background: var(--SoftBlue) url('../../images/icon-play.svg') no-repeat right top;    
+}
+
+.full-card .head.Study{
+    background: var(--LightRed) url('../../images/icon-study.svg') no-repeat right top;    
+}
+
+.full-card .head.Exercise{
+    background: var(--LimeGreen) url('../../images/icon-exercise.svg') no-repeat right top;    
+}
+
+.full-card .head.Social{
+    background: var(--Violet) url('../../images/icon-social.svg') no-repeat right top;    
+}
+
+.full-card .head.Self-Care{
+    background: var(--SoftOrange)  url('../../images/icon-self-care.svg') no-repeat right top;    
+}
+
+
+.full-card .body{
+    height: 70%;
+    width: 100%;
+    position: relative; 
+    top: -20px;
+    border-radius: 20px;
+    background-color: var(--DarkBlue);
+    color: #fff;
+}
+.full-card .body:hover{
+    background-color:hsl(235, 46%, 30%);
+}
+
+.full-card .body div{
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-end;
+    padding: 5% 15% 0% 15%;
+    margin-bottom: 10%;
+}
+
+.full-card .body div h3{
+    margin-top: 20%;
+    font-size: 18px;
+}
+
+.full-card .body div .ellipse{
+    margin-left: 70%;
+    margin-top: 28%;
+    cursor: pointer;
+    background: url('../../images/icon-ellipsis.svg') no-repeat;
+}
+
+.full-card .body .footer{
+    display: block;
+    padding: 0% 15% 0% 15%;
+}
+
+.full-card .body h2{
+    margin: 0%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.full-card .body p{
+    font-weight: 400;
+    margin: 0%;
+    color: var(--PaleBlue);
+}
+
+
+
+@media (max-width: 1024px) {
+    .full-card{
+        width: 20rem;
+        height: 13rem;
+        padding: 0% 0% 0% 5%;
+    }
+    .full-card .body div{
+        padding: 0% 10% 0% 10%;
+    }
+
+    .full-card .body .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 10% 0% 10%;
+    }
+
+    .full-card .body h2{
+        font-size: 2rem;
+    }
+    
+    .full-card .body p{
+        padding: 5% 0% 0% 0%;
+}
+}
