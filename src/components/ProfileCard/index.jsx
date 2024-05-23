@@ -1,3 +1,4 @@
+import React from 'react'
 import { useContext } from "react"
 import {DataContext} from '../../Context/index.jsx'
 import './index.css'

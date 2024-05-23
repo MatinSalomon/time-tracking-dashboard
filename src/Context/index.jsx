@@ -1,3 +1,4 @@
+import React from 'react'
 import { createContext, useState } from 'react';
 import { useFetch } from '../useFetch'
 
@@ -6,7 +7,7 @@ export const DataContext = createContext();
 
 
 export function DataProvider ({children}) {
-    const { data } = useFetch('../data.json')
+    const { data } = useFetch('../../public/data.json')
 
     const [daily, setDaily] = useState(false)
     const [weekly, setWeekly] = useState(true)
