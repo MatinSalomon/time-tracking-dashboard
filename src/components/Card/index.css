@@ -13,27 +13,27 @@
 }
 
 .full-card .head.Work{
-    background: var(--Orange) url('../../images/icon-work.svg') no-repeat right top;    
+    background: var(--Orange) url('../../../public/images/icon-work.svg') no-repeat right top;    
 }
 
 .full-card .head.Play{
-    background: var(--SoftBlue) url('../../images/icon-play.svg') no-repeat right top;    
+    background: var(--SoftBlue) url('../../../public/images/icon-play.svg') no-repeat right top;    
 }
 
 .full-card .head.Study{
-    background: var(--LightRed) url('../../images/icon-study.svg') no-repeat right top;    
+    background: var(--LightRed) url('../../../public/images/icon-study.svg') no-repeat right top;    
 }
 
 .full-card .head.Exercise{
-    background: var(--LimeGreen) url('../../images/icon-exercise.svg') no-repeat right top;    
+    background: var(--LimeGreen) url('../../../public/images/icon-exercise.svg') no-repeat right top;    
 }
 
 .full-card .head.Social{
-    background: var(--Violet) url('../../images/icon-social.svg') no-repeat right top;    
+    background: var(--Violet) url('../../../public/images/icon-social.svg') no-repeat right top;    
 }
 
 .full-card .head.Self-Care{
-    background: var(--SoftOrange)  url('../../images/icon-self-care.svg') no-repeat right top;    
+    background: var(--SoftOrange)  url('../../../public/images/icon-self-care.svg') no-repeat right top;    
 }
 
 
