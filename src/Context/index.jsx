@@ -7,7 +7,7 @@ export const DataContext = createContext();
 
 
 export function DataProvider ({children}) {
-    const { data } = useFetch('../../public/data.json')
+    const { data } = useFetch('data.json')
 
     const [daily, setDaily] = useState(false)
     const [weekly, setWeekly] = useState(true)
